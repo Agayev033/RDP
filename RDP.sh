@@ -4,11 +4,11 @@ printf "RDP yükleniyor. Lütfen sabırlı olun... " >&2
 
 {
 
-sudo useradd -m ALOK
+sudo useradd -m ALEX
 
-sudo adduser ALOK sudo
+sudo adduser ALEX sudo
 
-echo 'ALOK:8426' | sudo chpasswd
+echo 'ALEX:2003' | sudo chpasswd
 
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 
@@ -38,7 +38,7 @@ sudo apt install --assume-yes --fix-broken
 
 sudo apt install nautilus nano -y 
 
-sudo adduser ALOK chrome-remote-desktop
+sudo adduser ALEX chrome-remote-desktop
 
 } &> /dev/null &&
 
@@ -46,13 +46,13 @@ printf "\nKurulum tamamlandı " >&2 ||
 
 printf "\nHata oluştu " >&2
 
-printf '\nGirin https://remotedesktop.google.com/headless  Debian Linux komutunu kopyalayın ve alta yapıştırın.\n'
+printf '\nLinke girin: https://remotedesktop.google.com/headless ve Debian Linux komutunu kopyalayıp alta yapıştırın.\n'
 
 read -p "Buray Yapıştırın: " CRP
 
-su - ALOK -c """$CRP"""
+su - ALEX -c """$CRP"""
 
-printf 'Check https://remotedesktop.google.com/access/ \n\n'
+printf 'BURAYA BAKIN https://remotedesktop.google.com/access/ \n\n'
 
 if sudo apt-get upgrade &> /dev/null
 
