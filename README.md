@@ -10,3 +10,4 @@ Sonra yeni yer gelecek ve bizden 6 haneli şifre isteyecek. Buraya istediğiniz 
 Bu şifreyi iki kere girmenizi isteyecektir. ŞİFREYİ UNUTMAYIN.
 Sonra Enter'a basın ve mavi link çıkacaktır. Ona tıklayıp açtığınız bilgisayara girin ve biraz önce kullandığınız şifreyi kullanın.
 Oluşturduğunuz bilgisayar Linux işletim sistemli olacaktır.
+Ve birşey yüklemek istediğinizde şifre sorarsa şifre: 2003
